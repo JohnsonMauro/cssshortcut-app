@@ -1,0 +1,19 @@
+{
+  "name": "cssshortcut-app",
+  "version": "0.1.0",
+  "description": "Projeto CssShortCut com Afonso Pacifer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnsonMauro/cssshortcut-app.git"
+  },
+  "author": "Johnson Mauro <johnsonmauro@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JohnsonMauro/cssshortcut-app/issues"
+  },
+  "homepage": "https://github.com/JohnsonMauro/cssshortcut-app#readme"
+}
