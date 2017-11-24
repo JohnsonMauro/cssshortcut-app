@@ -1,0 +1,30 @@
+:root {
+    --cor: #ff0090;
+    --cor1: #eed089;
+    --cor2: #aad089;
+}
+
+.lv-1 {
+    background-color: var(--cor);
+    height: 300px;
+    width: 300px;
+}
+
+.lv-2 {
+    background-color: var(--cor1);
+    height: 200px;
+    width: 200px;
+}
+
+.lv-3 {
+    background-color: var(--cor2);
+    height: 100px;
+    width: 100px;
+}
+
+.out {
+    background-color: var(--cor1);
+    height: 250px;
+    margin-top: 5px;
+    width: 100%;
+}
