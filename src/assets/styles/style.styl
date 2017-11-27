@@ -3,12 +3,17 @@ highLight-color = #ff0066
 secundary-color = #212121
 backGround-color = #333
 
+*
+  box-sizing: border-box
+
 /* Header */
 .header
   width: 100%
   background-color: highLight-color
 
 .container
+  display: flex
+  flex-wrap: wrap
   border: 1px dashed
   width: 100%
   max-width: 800px
@@ -19,10 +24,17 @@ backGround-color = #333
   display: flex
   align-items: center
 
+@media screen and (max-width: 400px)
+  .menu
+    width: 100%
+    justify-content: center
+    order: 2
+    margin:10px 0;
+
 .menu-itens
   margin-top: 0
   margin-bottom: 0
-  padding-left: 0;
+  padding-left: 0
 
 .menu-item
   list-style: none
@@ -33,3 +45,26 @@ backGround-color = #333
   text-decoration: none
   display: inline-block
   padding: 10px
+
+.profile
+  border: 1px dashed
+  margin-left: auto
+
+@media screen and (max-width: 400px)
+  .profile
+    width: 100%
+    text-align: center
+    order: 1
+    margin:10px 0;
+
+.profile-img
+  width: 50px
+  height: 50px
+  vertical-align: middle
+  border-radius: 50%
+  margin: 5px
+
+.profile-text
+  display: inline-block;
+  color:#fff
+  margin: 5px
