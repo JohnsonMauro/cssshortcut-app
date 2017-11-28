@@ -9,7 +9,7 @@ gulp.task('pug', () => gulp.src('./src/*.pug')
   .pipe(gulp.dest('./out'))
   .pipe(connect.reload()))
 
-gulp.task('stylus', () => gulp.src('./src/assets/styles/*.styl')
+gulp.task('stylus', () => gulp.src('./src/assets/styles/**/*.styl')
   .pipe(stylus())
   .pipe(gulp.dest('./out/assets/styles/'))
   .pipe(connect.reload()))
@@ -27,7 +27,7 @@ gulp.task('imagemin', () =>
 
 gulp.task('watch', () => {
   gulp.watch(['./src/**/*.pug'], ['pug'])
-  gulp.watch(['./src/assets/styles/*.styl'], ['stylus'])
+  gulp.watch(['./src/assets/styles/**/*.styl'], ['stylus'])
   gulp.watch(['./src/assets/scripts/*.js'])
 })
 
