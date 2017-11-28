@@ -10,11 +10,38 @@ body {
   height: 100%;
 }
 body {
+  backGround-color: #333;
   display: flex;
   flex-direction: column;
+  font-weight: 300;
 }
 .main {
   flex: 1;
+}
+.container-centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-container {
+  border: 1px dashed;
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+.profile-img {
+  border-radius: 50%;
+  width: 100%;
+  max-width: 200px;
+}
+.heading-lv1 {
+  color: #fff;
+  font-family: 'Lobster', cursive;
+  font-size: 42px;
+  margin: 5px;
+}
+.paragraph {
+  color: #fff;
 }
 .container {
   border: 1px dashed;
@@ -83,9 +110,6 @@ body {
   border: 1px dashed;
   background-color: #212121;
   height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   color: #f06;
   font-weight: bold;
 }
