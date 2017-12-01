@@ -1,0 +1,16 @@
+/* Dev mode */
+/* Box Model */
+* {
+  box-sizing: border-box;
+}
+/* Generics */
+html,
+body {
+  height: 100%;
+}
+body {
+  backGround-color: bg-color;
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+}
