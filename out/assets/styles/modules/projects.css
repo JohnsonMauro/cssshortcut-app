@@ -6,3 +6,37 @@
   flex-wrap: wrap;
   width: 100%;
 }
+.projects-list .heading-lv1 {
+  margin: 20px 0;
+}
+.project {
+  width: calc(50% - 10px);
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin: 5px;
+}
+@media (max-width: 500px) {
+  .project {
+    width: calc(100% - 10px);
+  }
+}
+.project-name {
+  color: secundary-color;
+  margin: 0;
+  font-weight: 300;
+}
+.project-star {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.project-star-count {
+  color: secundary-color;
+}
+.project-description {
+  color: secundary-color;
+  width: 100%;
+  margin: 10px 0 0 0;
+}

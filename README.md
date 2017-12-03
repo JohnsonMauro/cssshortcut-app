@@ -9,6 +9,7 @@
 - Task Runner: [Gulp](https://gulpjs.com/)
 - HTML Template Engine: [Pug](https://pugjs.org/api/getting-started.html)
 - CSS Preprocessor: [Stylus](http://stylus-lang.com/)
+- JS Transpiler: [Babel](https://babeljs.io/)
 
 ## Run the project locally
 
@@ -38,7 +39,6 @@ $ gulp server
       ├── CONTRIBUTING.md
       ├── out/
       ├── src/
-      |   ├── icons/
       |   ├── assets/
       |   |   ├── img/
       |   |   ├── scripts/

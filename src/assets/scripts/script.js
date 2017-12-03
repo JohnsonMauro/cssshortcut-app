@@ -1,1 +1,3 @@
-console.log('ok')
+const foo = () => console.log('bar')
+
+foo()
