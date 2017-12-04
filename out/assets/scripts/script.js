@@ -1,7 +1,7 @@
 'use strict';
 
 var foo = function foo() {
-  return console.log('bar');
+  return 'bar';
 };
 
-foo();
+console.log(foo());

@@ -1,6 +1,6 @@
 .footer {
-  background-color: secondary-color;
-  height: 50px;
-  color: highLight-color;
+  background-color: $secondary-color;
+  color: $highLight-color;
   font-weight: bold;
+  height: 50px;
 }

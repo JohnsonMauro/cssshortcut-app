@@ -1,35 +1,35 @@
 // Header Container
 .header
+  background-color: $highLight-color
   width: 100%
-  background-color: highLight-color
-  
+
 // Menu
 .menu
+  align-items: center
   border()
   display: flex
-  align-items: center
 
 @media screen and (max-width: 400px)
   .menu
-    width: 100%
     justify-content: center
+    margin: 10px 0
     order: 2
-    margin:10px 0;
+    width: 100%
 
 .menu-itens
-  margin-top: 0
   margin-bottom: 0
+  margin-top: 0
   padding-left: 0
 
 .menu-itens__menu-item
-  list-style: none
   display: inline-block
+  list-style: none
 
 .menu-link
   color: #fff
-  text-decoration: none
   display: inline-block
   padding: 10px
+  text-decoration: none
 
 // Profile
 .profile-header
@@ -38,17 +38,17 @@
 
 @media screen and (max-width: 400px)
   .profile-header
-    width: 100%
-    text-align: center
+    margin: 10px 0
     order: 1
-    margin:10px 0;
+    text-align: center
+    width: 100%
 
 .profile-header-img
-  vertical-align: middle
   border-radius: 50%
   margin: 5px
+  vertical-align: middle
 
 .profile-header-text
-  display: inline-block;
-  color:#fff
+  color: #fff
+  display: inline-block
   margin: 5px
