@@ -1,6 +1,6 @@
 # CSS Shortcut APP
 
-[![licence mit](https://img.shields.io/badge/licence-MIT-blue.svg)](https://github.com/afonsopacifer/open-source-boilerplate/blob/master/LICENSE.md)
+[![Build Status](https://travis-ci.org/JohnsonMauro/cssshortcut-app.svg?branch=master)](https://travis-ci.org/JohnsonMauro/cssshortcut-app)     [![licence mit](https://img.shields.io/badge/licence-MIT-blue.svg)](https://github.com/afonsopacifer/open-source-boilerplate/blob/master/LICENSE.md)
 
 > Curso CSS ShortCut com Afonso Pacifer
 
