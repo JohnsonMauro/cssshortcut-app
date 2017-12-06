@@ -36,9 +36,10 @@ html(lang="pt-br")
   body(data-senna)
     include ./../partials/header.pug
 
-    block content
+    main(data-senna-surface)#content.main
+      block content
 
     include ./../partials/footer.pug
 
-    script(src="assets/scripts/script.js" async)
-    script(src="https://cdn.jsdelivr.net/npm/senna@2.4.2/lib/senna.min.js")
+    script(type="text/javascript" src="assets/scripts/script.js" async)
+    script(type="text/javascript" src="https://cdn.jsdelivr.net/npm/senna@2.4.2/lib/senna.min.js")
