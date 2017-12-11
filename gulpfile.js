@@ -6,7 +6,8 @@ const gulp = require('gulp'),
   data = require('gulp-data'),
   babel = require('gulp-babel'),
   lint = require('gulp-eslint'),
-  stylint = require('gulp-stylint');
+  stylint = require('gulp-stylint'),
+  ghPages = require('gulp-gh-pages');
 
 gulp.task('pug', () =>
   gulp.src('./src/*.pug')
@@ -63,5 +64,10 @@ gulp.task('serve', () => connect.server({
   livereload: true
 }))
 
+gulp.task('ghpages', () => 
+  gulp.src('./out/**/*').pipe(ghPages())
+)
+
 gulp.task('build', ['pug', 'stylint', 'stylus', 'imagemin', 'lint', 'babel'])
 gulp.task('server', ['serve', 'watch'])
+gulp.task('deploy', ['build', 'ghpages'])

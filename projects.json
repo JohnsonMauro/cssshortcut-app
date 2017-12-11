@@ -1,34 +1,52 @@
 {
-  "projects":[
+  "projects": [
     {
-      "name":"Peojeto 1",
-      "description":"Descrição do projeto 1.",
-      "star":"999"
+      "id": "1",
+      "name": "Peojeto 1",
+      "description": "Descrição do projeto 1.",
+      "star": "999"
     },
     {
-      "name":"Peojeto 2",
-      "description":"Descrição do projeto 2.",
-      "star":"999"
+      "id": "2",
+      "name": "Peojeto 2",
+      "description": "Descrição do projeto 2.",
+      "star": "999"
     },
     {
-      "name":"Peojeto 3",
-      "description":"Descrição do projeto 3.",
-      "star":"999"
+      "id": "3",
+      "name": "Peojeto 3",
+      "description": "Descrição do projeto 3.",
+      "star": "999"
     },
     {
-      "name":"Peojeto 4",
-      "description":"Descrição do projeto 4.",
-      "star":"999"
+      "id": "4",
+      "name": "Peojeto 4",
+      "description": "Descrição do projeto 4.",
+      "star": "999"
     },
     {
-      "name":"Peojeto 5",
-      "description":"Descrição do projeto 5.",
-      "star":"999"
+      "id": "5",
+      "name": "Peojeto 5",
+      "description": "Descrição do projeto 5.",
+      "star": "999"
     },
     {
-      "name":"Peojeto 6",
-      "description":"Descrição do projeto 6.",
-      "star":"999"
+      "id": "6",
+      "name": "Peojeto 6",
+      "description": "Descrição do projeto 6.",
+      "star": "999"
+    },
+    {
+      "id": "7",
+      "name": "Peojeto 7",
+      "description": "Descrição do projeto 7.",
+      "star": "999"
+    },
+    {
+      "id": "8",
+      "name": "Peojeto 8",
+      "description": "Descrição do projeto 8.",
+      "star": "999"
     }
   ]
 }

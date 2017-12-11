@@ -10,5 +10,5 @@ bower_components/
 npm-debug.log
 .grunt
 
-# Ruby
-.sass-cache/
+# Publish
+.publish/
